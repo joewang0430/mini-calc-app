@@ -1,0 +1,60 @@
+/* App.css */
+  .App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  form {
+    margin: 20px 0;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .result {
+    font-size: 30px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .button_calc {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 2px solid #ddd;
+  }
+  
+  .button_calc:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+  }
+  
+  .button_reset {
+    background-color: #f44336;
+    color: white;
+    border: 2px solid #f44336;
+  }
+  
+  .button_reset:hover {
+    background-color: #d32f2f;
+    transform: scale(1.05);
+  }
+  
