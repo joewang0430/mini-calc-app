@@ -8,3 +8,6 @@ Add 30, divide by 6, and reset
 <img width="1384" alt="截屏2025-01-05 14 43 22" src="https://github.com/user-attachments/assets/99214cea-4f8f-4fd9-b9fd-c04b0a84a9a8" />
 <img width="695" alt="截屏2025-01-05 14 43 30" src="https://github.com/user-attachments/assets/390fe51c-92aa-48ba-9ff1-1deceeea334c" />
 <img width="694" alt="截屏2025-01-05 14 43 38" src="https://github.com/user-attachments/assets/1474bcdf-1ca6-4a1d-9303-f7f7228af949" />
+### Setting
+**npm install** the package and **npm start** to start server  
+then open in **[localhost:3000](http://localhost:3000)**
