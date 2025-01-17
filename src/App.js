@@ -6,40 +6,41 @@ function App() {
   const resultRef = useRef(null); 
   const [result, setResult] = useState(0); 
  
-  function plus(e) { 
+  const plus = (e) => { 
     e.preventDefault(); 
     setResult((result) => result + Number(inputRef.current.value)); 
   }; 
  
-  function minus(e) { 
+  const minus = (e) => { 
   	e.preventDefault(); 
     setResult((result) => result - Number(inputRef.current.value)); 
   };
  
-  function times(e) { 
+  const times = (e) => { 
     e.preventDefault(); 
     setResult((result) => result * Number(inputRef.current.value)); 
   }; 
  
-  function divide(e) { 
+  const divide = (e) => { 
     e.preventDefault(); 
+    const denominator = Number(inputRef.current.value);
     setResult((result) => result / Number(inputRef.current.value)); 
   };
  
-  function resetInput(e) { 
+  const resetInput = (e) => { 
     e.preventDefault();
     inputRef.current.value = 0;
   }; 
  
-  function resetResult(e) { 
+  const resetResult = (e) => { 
   	e.preventDefault();
-    setResult((preval) => preval * 0);
+    setResult((preval) => 0);
   }; 
  
   return ( 
     <div className="App"> 
       <div> 
-        <h1>Simplest Working Calculator</h1> 
+        <h1>Fast Calculator</h1> 
       </div> 
       <form> 
         <p ref={resultRef} className="result"> {result} </p> 
